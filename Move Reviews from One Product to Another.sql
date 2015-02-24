@@ -1,0 +1,1 @@
+UPDATE reviews AS r SET r.products_id = 590 WHERE r.products_id = 205

@@ -1,0 +1,3 @@
+SELECT *
+FROM   information_schema.STATISTICS
+WHERE  TABLE_SCHEMA = DATABASE()

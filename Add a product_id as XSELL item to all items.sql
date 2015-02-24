@@ -1,0 +1,1 @@
+INSERT INTO products_xsell (products_id, xsell_id, sort_order) SELECT DISTINCT p.products_id, 711, 1 FROM products AS p

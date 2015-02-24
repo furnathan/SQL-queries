@@ -1,0 +1,1 @@
+SELECT * FROM featured f GROUP BY products_id HAVING count(products_id) > 1

@@ -1,0 +1,2 @@
+DELETE cb, cba FROM customers_basket cb LEFT JOIN customers_basket_attributes cba on (cb.customers_id = cba.customers_id AND cb.products_id = cba.products_id)
+WHERE cb.customers_basket_date_added < 20131003
